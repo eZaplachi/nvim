@@ -72,13 +72,6 @@ map("o", "y", "h")
 map("o", "o", "l")
 map("o", "l", "o")
 
--- Clipboard
-map("n", "<Leader>h", "'+h", { desc = "Copy to system Clipboard" })
-map("n", "<Leader>H", "'+H", { desc = "Copy to system Clipboard" })
-map("v", "<Leader>h", "'+h", { desc = "Copy to system Clipboard" })
-map("n", "<Leader>d", "'_d", { desc = "Cut to system Clipboard" })
-map("v", "<Leader>d", "'_d", { desc = "Cut to system Clipboard" })
-
 -- better up/down
 map("n", "n", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 map("n", "e", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
