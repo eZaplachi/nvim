@@ -1,9 +1,10 @@
 return {
   "tpope/vim-fugitive",
+  lazy = false,
   keys = {
     {
       "<Leader>ga",
-      ":Git add %f<CR>",
+      ":Git add %<CR>",
       desc = "add current buffer to git stage",
     },
     {
@@ -13,7 +14,7 @@ return {
     },
     {
       "<Leader>gec",
-      "Git add .<CR> :Git commit<CR>",
+      ":Git add .<CR>:Git commit<CR>",
       desc = "add and commit everything for cwd",
     },
     {
